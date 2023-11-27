@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: rgb(57, 153, 226);
+  --secondary-color: #f7fbfe;
   --heading-font-family: "Acme", sans-serif;
   --default-font-family: "Caveat", cursive;
 }
