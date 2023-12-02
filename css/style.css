@@ -28,6 +28,33 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 p.mid-paragraph {
   text-align: center;
   padding: 15px;
@@ -138,5 +165,9 @@ p.mid-paragraph {
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
