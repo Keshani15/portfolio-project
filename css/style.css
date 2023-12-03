@@ -115,7 +115,7 @@ p.mid-paragraph {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -133,7 +133,7 @@ p.mid-paragraph {
 }
 
 .content-container {
-  padding: 100px 80px;
+  padding: 40px 80px;
 }
 
 .content h1 {
@@ -142,12 +142,12 @@ p.mid-paragraph {
 }
 
 .content h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-family: var(--default-font-family);
 }
 
 .content h3 {
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
   line-height: 1;
   margin: 20px 0 0;
@@ -155,7 +155,7 @@ p.mid-paragraph {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 22px;
 }
 
 .content {
@@ -207,6 +207,7 @@ p.mid-paragraph {
   .hero {
     padding: 60px 20px;
   }
+
   .project-description {
     padding: 0;
     text-align: center;

@@ -31,7 +31,23 @@
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <div class="content-container container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><h6 class="logo d-none d-md-block mt-2">Keshani Naidoo</h6>
+          <h6 class="logo d-block d-md-none mt-2">KN</h6></a
+        >
+        <ul>
+          <li class><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Keshani">About</a></li>
+          <li><a href="/work.html" title="Keshani's work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Keshani">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container text-center">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
@@ -55,6 +71,54 @@
           </a>
         </p>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Keshani"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <a href="mailto:keshani.subramani@gmail.com" class="email-link"
+          >keshani.subramani@gmail.com</a
+        >
+        <div class="social-links d-flex justify-content-center mt-5">
+          <a
+            href="https://www.instagram.com/keshani15/"
+            target="_blank"
+            title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://github.com/Keshani15"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/profile.php?id=1708015931"
+            target="_blank"
+            title="Facebook Profile"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Keshani Naidoo, and it is
+          <a
+            href="https://github.com/Keshani15/portfolio-project"
+            title="GitHub link"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
